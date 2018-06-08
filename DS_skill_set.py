@@ -39,3 +39,9 @@ class DemandPool(SKILL_Set):
 DS_j1_r=['A/B test', 'linear regression', 'Supervise Learning', 'Anomaly detection','predictive modeling']
 DS_j1_s=[0,1,1,0,1]
 DS_j1=SKILL_Set()
+
+
+import numpy as np
+a = np.array([[[1, 2], [3, 4],[3, 4]],[[1, 2], [3, 4],[5, 4]],[[1, 2], [3, 4],[5, 4]])
+a = np.arange(24).reshape(1,2,3,4)
+a = np.array([1,2])
