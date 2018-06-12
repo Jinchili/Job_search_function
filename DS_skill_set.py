@@ -42,6 +42,9 @@ DS_j1=SKILL_Set()
 
 
 import numpy as np
-a = np.array([[[1, 2], [3, 4],[3, 4]],[[1, 2], [3, 4],[5, 4]],[[1, 2], [3, 4],[5, 4]])
-a = np.arange(24).reshape(1,2,3,4)
+a = np.arange(24).reshape(4,6)
+b = np.ones(24).reshape(4,6)
+
+##concate 
+c=np.
 a = np.array([1,2])
