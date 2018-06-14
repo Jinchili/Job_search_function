@@ -44,3 +44,11 @@ print(a_arary//b_arary)
 print(a_arary%b_arary)
 print(a_arary**b_arary)
 
+
+##test function
+def get_data(a,b):
+    list=1
+    return list if a>0 else list + 1
+
+##
+
